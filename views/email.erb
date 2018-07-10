@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Allura|Princess+Sofia|Stalemate" rel="stylesheet">  
+  <title>Edge-Case Bakery</title>
+</head>
+<body style="background-color:pink;" >
+    <h1 style="text-align: center; font-family:'Princess Sofia', cursive;">Edge-Case Bakery</h1>
+    <table>
+    <% @catalog["cakes"].each do |item| %>
+    <tr>
+        <td>
+            <img src="<%= item["pic"] %>" width="250">
+        </td>
+        <td>
+        <ul>
+            <h4 style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["name"] %></h4>        
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["description"] %></li>
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["price"] %></li>
+        </ul>
+        </td>
+        </tr>
+    <% end %>
+    <% @catalog["cupcakes"].each do |item| %>
+    <tr>
+        <td>
+            <img src="<%= item["pic"] %>" width="250">
+        </td>
+        <td>
+        <ul>
+            <h4 style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["name"] %></h4> 
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["description"] %></li>
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["price"] %></li>
+            </ul>
+        </td>
+        </tr>
+    <% end %>
+    <% @catalog["macaroons"].each do |item| %>
+    <tr>
+        <td>
+            <img src="<%= item["pic"] %>" width="250">
+        </td>
+        <td>
+        <ul>
+            <h4 style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["name"] %></h4>
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["description"] %></li>
+            <li style="font-size: 25px; font-family:'Princess Sofia', cursive;"><%= item["price"] %></li>
+            </ul>
+        </td>
+        </tr>
+    <% end %>
+</table>

@@ -1,0 +1,94 @@
+body {
+    background-image: url("images/skalka.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.logo {
+    text-align: center;
+    color: azure;
+    font-size: 150px;
+    font-family: 'Princess Sofia', cursive;
+}
+
+nav,
+.page-footer {
+    background-color: black;
+    opacity: 0.8;
+    font-family: 'Princess Sofia', cursive;
+}
+
+#nav-mobile {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    font-size: 30px;
+    color: azure;
+}
+
+nav ul a:hover,
+footer a:hover {
+    color: #344e5c;
+}
+
+.about_us {
+    text-align: left;
+    font-size: 35px;
+    background-color: #ffffffa6;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px -3px #000;
+    font-family: 'Princess Sofia', cursive;
+}
+
+.card .card-title {
+    font-size: 33px;
+    font-weight: 300;
+    font-family: 'Princess Sofia', cursive;
+}
+
+.card-content,
+.info_cake {
+    font-family: 'Princess Sofia', cursive;
+}
+
+.info_cake {
+    font-size: 25px;
+}
+
+input {
+    color: azure;
+    border-radius: 10px;
+    font-family: 'Princess Sofia', cursive;
+    font-size: 25px;
+}
+
+input:hover {
+    color: aqua;
+}
+
+.sub {
+    color: #344e5c;
+}
+
+.info {
+    height: 80vh;
+}
+
+footer a {
+    color: azure;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.social-info {
+    margin-top: 2em;
+}
+
+.contact_title {
+    margin-left: inherit;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,52 @@
+{
+    "data": {
+        "cakes": [{
+            "name": "Dark Chocolate cake",
+            "price": "$35",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/dark.jpg",
+            "description": "Chocolate Shell with Dark Chocolate Ganache"
+        }, {
+            "name": "Earl Grey cake",
+            "price": "$30",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/berry.jpg",
+            "description": "Milk Chocolate Ganache Infused with Earl Grey Tea"
+        }, {
+            "name": "Fig cake",
+            "price": "$33",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/fig_w.jpg",
+            "description": "Figs cooked in White Wine and Honey"
+        }],
+        "macaroons": [{
+            "name": "Giggity macaroon",
+            "price": "$5",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/ch.jpg",
+            "description": "Chocolate Ganache, Peanut Butter, Marshmallow Creme, Dulce de Leche & Salted Peanuts"
+        }, {
+            "name": "Strawberry macaroon",
+            "price": "$4",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/straw.jpg",
+            "description": "Strawberry White Chocolate Ganache"
+        }, {
+            "name": "Matcha macaroon",
+            "price": "$5.5",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/maca.jpeg",
+            "description": "Green Tea Buttercream"
+        }],
+        "cupcakes": [{
+            "name": "Party Time cupcake",
+            "price": "$6",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/chcup.jpg",
+            "description": "Salted Milk Chocolate & Dulce de Leche"
+        }, {
+            "name": "Pistachio cupcake",
+            "price": "$5.5",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/pcup.jpg",
+            "description": "Pistachio Shell with Pistachio and White Chocolate Ganache"
+        }, {
+            "name": "Blueberry cupcake",
+            "price": "$7",
+            "pic": "https://radiant-tundra-38379.herokuapp.com/images/cup.jpg",
+            "description": "Mascarpone & Blueberry Cognac"
+        }]
+    }
+}
